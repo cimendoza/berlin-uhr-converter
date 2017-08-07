@@ -1,0 +1,34 @@
+Please have a look at the coding exercise – you will be asked to develop code that is both production quality code and fully unit-tested.
+Client's preferences are the following:
+•             Comprehensive readable test base
+•             Simplicity: the candidate should avoid writing unnecessary, overcomplicated code
+•             Readability, well organized, clean code
+ 
+Please find in the attachment the exercise, and you are expected to respond with a zipped solution when completed. Please note that providing the solution faster has lower priority than adherence to the criteria above, so take your time to put in enough tests, clean & refactor the code.
+Please note that the content of the exercise is confidential.
+ 
+Tips:
+The JBehave test is there as an acceptance test. the idea is that the code is driven by the tests. adding the tests afterward isn't really good enough. 
+ 
+To clarify a bit more: customer expects a thorough unit test suite, no need to extend the JBehave tests.
+Preferably the solution should show that the candidate knows TDD, i.e. the implementation was driven by writing the tests first.
+ 
+Also, please mind that it is really important that you remember:
+-          Using solutions available in the internet is likely to be rejected (customer will compare your work to those solutions)
+-          Good test suite is a must
+-          Violating design principles (SOLID, DRY) will most likely result in rejection
+-          In  BerlinClockFixture.java  initialize Berlin Clock field with your implementation of TimeConverter at line 18
+ 
+-          You need to make sure the given test passes and project can be built using Gradle.
+-          Should use TDD approach during implementation and we prefer the finished work to be checked into Git.
+-          The code should be production ready, i.e., in the best shape they think it should be.
+ 
+Simplicity, Simplicity, Simplicity (we don’t like over-complicated code)
+•         DRY – don’t repeat yourself (no duplication)
+•         JBehave test (given by folks from UBS) remains unchanged
+•         JUnit tests are necessary, both for success cases and for failures, should be succinct and concise
+•         The names of the tests are important (they should read in English the cases they are testing)
+•         One assert in one test (not more)
+•         Simple and proper naming of classes, methods, variables, etc.
+•         Line separator should be system dependant (in Java use: System.lineSeparator())
+The code should be EASY to read indeed
